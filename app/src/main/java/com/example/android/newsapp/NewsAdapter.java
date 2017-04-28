@@ -39,7 +39,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         Log.v("NewsAdapter", title);
 
         // Find the TextView with view ID section
-        TextView titleView = (TextView) listItemView.findViewById(R.id.title);
+        TextView titleView = (TextView) listItemView.findViewById(R.id.article_title);
 
         // Display the location of the current title in that TextView
         titleView.setText(title);
